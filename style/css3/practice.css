@@ -1,0 +1,51 @@
+/* #outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    background-color: white;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+} */
+
+
+/* example 2 */
+#div1{
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    border: 5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+}
+
+.divs{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+}
+
+li{
+    display: inline;
+}

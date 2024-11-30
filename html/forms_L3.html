@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/server">
+        <fieldset>
+            <div>
+                <label for="username">UserName :</label>
+                <input type="text" id="username" placeholder="Enter your name">
+            </div>
+            <div>
+                <label for="pass">Password :</label>
+                <input type="text" id="pass" placeholder="Enter your password">
+            </div>
+            <div>
+                <label for="age">Enter Age :</label>
+                <input type="text" id="age" placeholder="Enter your age">
+            </div>
+
+            choose your profession:
+            <select name="profession" id="profession">
+                <option >select your option</option>
+                <option value="student">student</option>
+                <option value="dev">developer</option>
+            </select><br><br>
+
+            <label for="vol">select your volume</label>
+            <input type="range" min="0" max="100" id="vol" name="vol" step="10" value="70"><br><br>
+
+            <label for="feedback">please give your valuable feedback</label>
+            <textarea name="feedback" id="feedback"></textarea>
+
+            <!-- <button>submit</button> -->
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="search in youtube" name="search_query">
+        <button>search</button>
+    </form>
+    <br><hr>
+
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="search in google" name="q">
+        <button>search</button>
+    </form>
+
+
+    <!-- checkbox -->
+     <form action="">
+    <input type="checkbox" id="age" name="age">
+     <label for="age">i am 18+</label><br>
+
+     <input type="radio" id="apple" name="fruit">
+     <label for="apple">apple</label>
+     <input type="radio" id="mango" name="fruit">
+     <label for="mango">Mango</label>
+     <input type="radio" id="banana" name="fruit">
+     <label for="banana">Banana</label>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    /* text-decoration:  underline; */
+    text-decoration: wavy underline;
+    letter-spacing: 5px;
+    font-family: impact;
+}
+h3{
+    text-align: start;
+    /* text-decoration:  line-through; */
+    text-decoration: blue line-through;
+}
+p{
+    text-align: justify;
+    font-weight: 700;
+    line-height: 1;
+    font-family: Helvetica;
+}
+h2{
+    font-weight: normal;
+    text-decoration: yellow overline;
+}
+h4{
+    text-align: center;
+    color: rgb(246, 186, 65);
+    text-decoration: teal double underline;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-transform: uppercase;
+
+}

@@ -1,0 +1,76 @@
+/* universal selector */
+*{
+     font-family: 'Courier New';
+}
+
+/* element selector */
+
+h1,h3{
+    color: #b92b27;
+}
+#login,#signup{
+    background-color: white;
+    color:#b92b27 ;
+}
+.upvote{
+    background-color: antiquewhite;
+}
+
+/* descendant selector */
+p a{
+    color: orange;
+    background-color: beige;
+}
+nav ul li a{
+    color: red;
+}
+
+/* adjacent sibling combination */
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: lightcoral;
+}
+
+/* pseudo classes */
+/* hover */
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: line-through;
+}
+
+/* active */
+button:active{
+    background-color: yellow;
+}
+
+/* checked */
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+/* nth-of-type */
+div:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
+
+/* pseudo element */
+h1::first-letter{
+    /* color: black; */
+}
+
+p::first-line {
+    color: rgb(63, 6, 235);
+    font-weight: 900;
+}
+
+p::selection{
+    background-color: #f5d02c;
+
+}
